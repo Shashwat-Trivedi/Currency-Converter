@@ -26,8 +26,12 @@ function App() {
   };
 
   return (
-    <div className="background bg-blue-400 h-screen w-screen flex flex-col items-center justify-center">
-      <h1 className="m-8 text-4xl text-blue-700 underline underline-offset-8 font-bold font-sans">
+    <div className="background h-screen w-screen flex flex-col items-center justify-center"
+    style={{ 
+      backgroundImage: "url('https://images.pexels.com/photos/14907356/pexels-photo-14907356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')"
+    }}>
+      
+      <h1 className="m-8 bg-gray-500/80 p-4 rounded-xl  text-4xl text-blue-700 underline underline-offset-8 font-bold font-sans">
         Currency Converter
       </h1>
       <form
